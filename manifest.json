@@ -1,0 +1,16 @@
+{
+    "manifest_version":3,
+    "version":"1.0",
+    "name":"Hanzi Lookup",
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "icons": {
+        "48": "icon-48.png",
+        "96": "icon-96.png"
+    },
+    "background": {
+        "service_worker": "main.js"
+    }
+}
